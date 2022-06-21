@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <Folder Include="Car\Application\" />
+    <Folder Include="Car\Persistence\" />
     <Folder Include="Rent\" />
     <Folder Include="Customer\" />
   </ItemGroup>
