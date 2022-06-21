@@ -11,8 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Car\API\" />
-    <Folder Include="Car\Persistence\" />
+    <Folder Include="Car\Application\" />
     <Folder Include="Rent\" />
     <Folder Include="Customer\" />
   </ItemGroup>

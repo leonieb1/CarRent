@@ -4,5 +4,9 @@
     {
         public Guid Id { get; }
         public decimal DailyPrice { get; }
+
+        public CarClass()
+        {    
+        }
     }
 }
