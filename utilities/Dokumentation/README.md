@@ -1,3 +1,6 @@
+# README
+
+## Dokumentation bearbeiten
 - Doppeklick auf MD-File
 - im gewünschten Texteditor öffnen & bearbeiten
 
