@@ -46,8 +46,4 @@ jobs:
           & dotnet restore .\source\CarRent.sln
           & dotnet build .\source\CarRent.sln
           & coverlet .\source\CarRent.sln
-            --target "dotnet" 
-            --targetargs "test --no-build"
-            -f=opencover 
-            -o="coverage.xml"
           .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
