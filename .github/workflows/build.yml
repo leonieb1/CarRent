@@ -45,7 +45,7 @@ jobs:
           .\.sonar\scanner\dotnet-sonarscanner begin /k:"leonieb1_CarRent" /o:"leonieb1" /d:sonar.login="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io"
           & dotnet restore .\source\CarRent.sln
           & dotnet build .\source\CarRent.sln
-          coverlet .\source\CarRent.sln
+          & coverlet .\source\CarRent.sln
             --target "dotnet" 
             --targetargs "test --no-build"
             -f=opencover 
