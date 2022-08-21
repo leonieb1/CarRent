@@ -13,6 +13,7 @@
   <ItemGroup>
     <Folder Include="Car\Application\" />
     <Folder Include="Car\Persistence\" />
+    <Folder Include="Controllers\" />
     <Folder Include="Rent\" />
     <Folder Include="Customer\" />
   </ItemGroup>

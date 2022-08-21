@@ -2,16 +2,48 @@
 
 Benjamin Peter & Leonie Buser
 
-## Commands
+## Einführung und Ziele
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+Es soll ein neues Autovermietungssystem „CarRent“ erstellt werden. Das System soll aus einem Server-Teil und optional einen Web-Client bestehen.
 
-## Project layout
+a) Die Daten sollen mittels Repository Pattern in eine Datenbank gespeichert werden können.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+b) Die Business Logik soll auf dem Backend laufen und eine REST APIs anbieten.
+
+c) Es soll zuerst ein Monolith erstellt werden und später auf eine Micro Service Architektur überführt werden.
+
+### Aufgabenstellung
+
+Um eine saubere Architektur in einem Projekt zu erreichen, die einerseits alle Zuständigkeiten klärt und abgrenzt und zudem eine Verteilung auf verschiedene Layers und Tiers ermöglicht, müssen in Visual Studio mehrere Projekte angelegt werden.
+Wir wollen zudem die Möglichkeit haben alle internen und externen Abhängigkeiten zentral zu verwalten.
+
+## Big Picture
+
+### Context
+
+![Alt-Text](/pics/C4-Context.png)
+
+### Container
+
+![Alt-Text](/pics/C4-Container.png)
+
+### Components
+
+![Alt-Text](/pics/C4-Components-Unterricht.png)
+
+## Domain-Model
+
+![Alt-Text](/pics/DomainModel.png)
+
+## Use Cases
+
+- Der Sachbeareiter kann Kunden mit Namen, Adresse & Kundennummer im System verwalten (CRUD).
+- Der Sachbeareiter kann Kunden mit Namen oder Kundennummer suchen.
+- Der Sachbearbeiter kann Autos verwalten (CRUD) und suchen.
+- Jedes Auto bekommt eine eindeutige Identifikation, Klasse, Marke und einen Typ.
+- Bei der Reservation kann eine bestimmte Klasse gewählt & die Anzahl Tage angegeben werden. Dabei werden die Gesamtkosten berechnet.
+- Bei der Abholung wird Reservation in einen Mietvertrag umgewandelt.  
+
+## Qualitätsanforderungen
+
+## Risiken & technische Schulden
