@@ -39,10 +39,14 @@ Wir wollen zudem die Möglichkeit haben alle internen und externen Abhängigkeit
 
 - Der Sachbeareiter kann Kunden mit Namen, Adresse & Kundennummer im System verwalten (CRUD).
 - Der Sachbeareiter kann Kunden mit Namen oder Kundennummer suchen.
-- Der Sachbearbeiter kann Autos verwalten (CRUD) und suchen.
+- Der Sachbearbeiter kann Autos verwalten (CRUD).
 - Jedes Auto bekommt eine eindeutige Identifikation, Klasse, Marke und einen Typ.
-- Bei der Reservation kann eine bestimmte Klasse gewählt & die Anzahl Tage angegeben werden. Dabei werden die Gesamtkosten berechnet.
+- Der Kunde kann bei der Reservation eine bestimmte Klasse wählen & die Anzahl Tage angegeben werden. Dabei werden die Gesamtkosten für diesen Wagentyp berechnet.
 - Bei der Abholung wird Reservation in einen Mietvertrag umgewandelt.  
+
+## Deployment Diagramm
+
+![Alt-Text](/pics/Deployment-Diagramm.png)
 
 ## Qualitätsanforderungen
 
