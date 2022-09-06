@@ -33,7 +33,7 @@ Wir wollen zudem die Möglichkeit haben alle internen und externen Abhängigkeit
 
 ## Domain-Model
 
-![Domain-Model-Diagramm](/pics/DomainModel.png)
+![DomainModel-Diagramm](/pics/DomainModel.png)
 
 ## Use Cases
 
