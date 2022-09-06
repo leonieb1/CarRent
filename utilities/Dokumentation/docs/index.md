@@ -21,28 +21,32 @@ Wir wollen zudem die Möglichkeit haben alle internen und externen Abhängigkeit
 
 ### Context
 
-![Alt-Text](/pics/C4-Context.png)
+![C4-Context-Diagramm](/pics/C4-Context.png)
 
 ### Container
 
-![Alt-Text](/pics/C4-Container.png)
+![C4-Container-Diagramm](/pics/C4-Container.png)
 
 ### Components
 
-![Alt-Text](/pics/C4-Components-Unterricht.png)
+![C4-Components-Diagramm](/pics/C4-Components-Unterricht.png)
 
 ## Domain-Model
 
-![Alt-Text](/pics/DomainModel.png)
+![Domain-Model-Diagramm](/pics/DomainModel.png)
 
 ## Use Cases
 
 - Der Sachbeareiter kann Kunden mit Namen, Adresse & Kundennummer im System verwalten (CRUD).
 - Der Sachbeareiter kann Kunden mit Namen oder Kundennummer suchen.
-- Der Sachbearbeiter kann Autos verwalten (CRUD) und suchen.
+- Der Sachbearbeiter kann Autos verwalten (CRUD).
 - Jedes Auto bekommt eine eindeutige Identifikation, Klasse, Marke und einen Typ.
-- Bei der Reservation kann eine bestimmte Klasse gewählt & die Anzahl Tage angegeben werden. Dabei werden die Gesamtkosten berechnet.
+- Der Kunde kann bei der Reservation eine bestimmte Klasse wählen & die Anzahl Tage angegeben werden. Dabei werden die Gesamtkosten für diesen Wagentyp berechnet.
 - Bei der Abholung wird Reservation in einen Mietvertrag umgewandelt.  
+
+## Deployment Diagramm
+
+![Deployment-Diagramm](/pics/Deployment-Diagramm.png)
 
 ## Qualitätsanforderungen
 
