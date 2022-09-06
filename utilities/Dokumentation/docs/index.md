@@ -21,19 +21,19 @@ Wir wollen zudem die Möglichkeit haben alle internen und externen Abhängigkeit
 
 ### Context
 
-![C4-Context-Diagramm](/pics/C4-Context.png)
+![C4-Context-Diagramm](./pics/C4-Context.png)
 
 ### Container
 
-![C4-Container-Diagramm](/pics/C4-Container.png)
+![C4-Container-Diagramm](./pics/C4-Container.png)
 
 ### Components
 
-![C4-Components-Diagramm](/pics/C4-Components-Unterricht.png)
+![C4-Components-Diagramm](./pics/C4-Components-Unterricht.png)
 
 ## Domain-Model
 
-![DomainModel-Diagramm](/pics/DomainModel.png)
+![DomainModel-Diagramm](./pics/DomainModel.png)
 
 ## Use Cases
 
@@ -46,7 +46,7 @@ Wir wollen zudem die Möglichkeit haben alle internen und externen Abhängigkeit
 
 ## Deployment Diagramm
 
-![Deployment-Diagramm](/pics/Deployment-Diagramm.png)
+![Deployment-Diagramm](./pics/Deployment-Diagramm.png)
 
 ## Qualitätsanforderungen
 
