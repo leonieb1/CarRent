@@ -8,6 +8,10 @@ namespace CarRent.Car.API.v1
     [ApiController]
     public class CarController : ControllerBase
     {
+        public CarController()
+        {
+
+        }
         // GET: api/<CarController>
         [HttpGet]
         public IEnumerable<CarResponseDto> Get()
@@ -27,6 +31,7 @@ namespace CarRent.Car.API.v1
         [HttpGet("{id}")]
         public string Get(int id)
         {
+            
             return "value";
         }
 

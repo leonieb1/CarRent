@@ -7,15 +7,23 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Car\Application\**" />
+    <Compile Remove="Controllers\**" />
+    <Content Remove="Car\Application\**" />
+    <Content Remove="Controllers\**" />
+    <EmbeddedResource Remove="Car\Application\**" />
+    <EmbeddedResource Remove="Controllers\**" />
+    <None Remove="Car\Application\**" />
+    <None Remove="Controllers\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Car\Application\" />
-    <Folder Include="Car\Persistence\" />
-    <Folder Include="Controllers\" />
-    <Folder Include="Rent\" />
-    <Folder Include="Customer\" />
+    <Folder Include="Car\Infrastructure\Persistence\" />
+    <Folder Include="Rent\Domain\" />
   </ItemGroup>
 
 </Project>

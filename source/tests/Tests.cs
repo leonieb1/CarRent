@@ -1,14 +1,22 @@
 ﻿namespace CarRent.Tests
 {
     using System;
-    using System.Collections;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Text;
-    using System.Threading.Tasks;
+    using CarRent.Car.Domain;
 
     public class Tests
     {
+        [Fact]
+        public void CarDomain()
+        {
+            var car1 = new Car();
+            var car2 = new Car();
+
+            car1.Equals(car2);
+            var result = (car1 == car2);
+
+            Assert.True(result);
+        }
+
         [Fact]
         public void Foo()
         {
