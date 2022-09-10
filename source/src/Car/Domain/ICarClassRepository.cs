@@ -2,9 +2,9 @@
 {
     using CarRent.Common.Domain;
 
-    public interface ICarRepository : IRepository<Car>
+    public interface ICarClassRepository : IRepository<CarClass>
     {
-        Car GetByCarNumber(string carNumber);
+        CarClass GetByCarClassName(string carClassName);
 
         // weitere sinnvolle Suchbegriffe
     }
