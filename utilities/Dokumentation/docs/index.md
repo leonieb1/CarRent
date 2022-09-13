@@ -48,6 +48,3 @@ Wir wollen zudem die Möglichkeit haben alle internen und externen Abhängigkeit
 
 ![Deployment-Diagramm](./pics/Deployment-Diagramm.png)
 
-## Qualitätsanforderungen
-
-## Risiken & technische Schulden
